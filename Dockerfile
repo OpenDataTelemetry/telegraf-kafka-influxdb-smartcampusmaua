@@ -4,5 +4,5 @@ RUN rm -rf /var/lib/apt/lists/*
 
 COPY telegraf.conf /etc/telegraf/telegraf.conf
 
-# docker build -t rogeriocassares/telegraf-kafka-influxdb:0.1 .
-# docker run --rm rogeriocassares/telegraf-kafka-influxdb:0.1
+# docker build -t rogeriocassares/telegraf-kafka-influxdb:0.2 .
+# docker run --rm rogeriocassares/telegraf-kafka-influxdb:0.2
