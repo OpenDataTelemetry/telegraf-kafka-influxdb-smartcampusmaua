@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: rogeriocassares/telegraf-kafka-influxdb:0.5
+          tags: rogeriocassares/telegraf-kafka-influxdb:0.6
